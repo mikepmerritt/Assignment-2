@@ -8,7 +8,9 @@ public class CollegeStudentDriver {
 		CollegeStudent michael = new CollegeStudent("Michael", 19, "Quinnipiac");
 		
 		for(int i = 0; i < 4; i++) {
+			michael.goToLecture();
 			michael.doAssignment();
+			michael.eatLunch();
 		}
 	}
 

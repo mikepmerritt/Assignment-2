@@ -23,4 +23,17 @@ public class CollegeStudent {
 			System.out.println(name + " has no more assignments to do!");
 		}
 	}
+	
+	public void goToLecture() {
+		if(Math.random()*2 > 1) {
+			System.out.println(name + " went to a 50 minute lecture at " + college + ".");
+		}
+		else {
+			System.out.println(name + " went to a 75 minute lecture at " + college + ".");
+		}
+	}
+	
+	public void eatLunch() {
+		System.out.println(name + " ate lunch for 60 minutes.");
+	}
 }
