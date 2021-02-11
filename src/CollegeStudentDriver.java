@@ -3,15 +3,16 @@ public class CollegeStudentDriver {
 
 	public static void main(String[] args) {
 		
-		System.out.println("This is the start of the project, so more will come soon.");
-		
 		CollegeStudent michael = new CollegeStudent("Michael", 19, "Quinnipiac");
 		
-		for(int i = 0; i < 4; i++) {
+		for(int i = 1; i <= 4; i++) {
+			System.out.println("Day " + i);
+			michael.goToLecture();
+			michael.goToLecture();
+			michael.eatLunch();
 			michael.goToLecture();
 			michael.doAssignment();
-			michael.eatLunch();
+			System.out.println("-------------------------------------------");
 		}
 	}
-
 }

@@ -16,7 +16,7 @@ public class CollegeStudent {
 	public void doAssignment() {
 		if(numAssignments > 0) {
 			int timeSpent = (int) (Math.random()*30+15);
-			System.out.println(name + " finished the assignment in " + timeSpent + " minutes.");
+			System.out.println(name + " finished an assignment in " + timeSpent + " minutes.");
 			numAssignments--;
 		}
 		else {
