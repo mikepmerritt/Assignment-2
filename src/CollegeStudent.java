@@ -36,4 +36,8 @@ public class CollegeStudent {
 	public void eatLunch() {
 		System.out.println(name + " ate lunch for 60 minutes.");
 	}
+	
+	public String toString() {
+		return name + ", " + age + ", student at " + college;
+	}
 }
